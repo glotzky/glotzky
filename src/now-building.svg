@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Now building: ai-pipeline-starter</title>
+  <desc id="d">A music-player style card. The track is ai-pipeline-starter, and the progress bar moves through the pipeline stages: interview, research, plan, build, test, review and draft pull request.</desc>
+  <defs>
+    <linearGradient id="art" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="759" height="189" rx="18" fill="#0D1117" stroke="#30363D"/>
+
+  <!-- album art: a branching pipeline glyph -->
+  <rect x="28" y="35" width="120" height="120" rx="16" fill="url(#art)"/>
+  <g stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" fill="none">
+    <path d="M62 95 H84 C98 95 98 70 112 70"/>
+    <path d="M84 95 C98 95 98 120 112 120"/>
+  </g>
+  <g fill="#FFFFFF">
+    <circle cx="62" cy="95" r="8"/>
+    <circle cx="116" cy="70" r="8"/>
+    <circle cx="116" cy="120" r="8"/>
+  </g>
+
+  <!-- label + equalizer -->
+  <text x="170" y="52" font-size="12" font-weight="700" letter-spacing="2" fill="#06B6D4">NOW BUILDING</text>
+  <rect x="298" y="48" width="4" height="4" rx="2" fill="#06B6D4"><animate attributeName="height" values="4;14;7;12;4" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="48;38;45;40;48" dur="0.9s" repeatCount="indefinite"/></rect>
+  <rect x="305" y="48" width="4" height="4" rx="2" fill="#06B6D4"><animate attributeName="height" values="10;5;14;6;10" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="42;47;38;46;42" dur="1.2s" repeatCount="indefinite"/></rect>
+  <rect x="312" y="48" width="4" height="4" rx="2" fill="#06B6D4"><animate attributeName="height" values="6;12;4;14;6" dur="0.8s" repeatCount="indefinite"/><animate attributeName="y" values="46;40;48;38;46" dur="0.8s" repeatCount="indefinite"/></rect>
+  <rect x="319" y="48" width="4" height="4" rx="2" fill="#06B6D4"><animate attributeName="height" values="12;6;10;4;12" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="40;46;42;48;40" dur="1.4s" repeatCount="indefinite"/></rect>
+  <rect x="326" y="48" width="4" height="4" rx="2" fill="#06B6D4"><animate attributeName="height" values="5;13;8;12;5" dur="1.0s" repeatCount="indefinite"/><animate attributeName="y" values="47;39;44;40;47" dur="1.0s" repeatCount="indefinite"/></rect>
+
+  <!-- title -->
+  <text x="170" y="86" font-size="28" font-weight="700" fill="#E6EDF3">ai-pipeline-starter</text>
+  <text x="170" y="107" font-size="14" fill="#8B949E">From a GitHub issue to a reviewed draft PR, with a human at both gates</text>
+
+  <!-- transport controls -->
+  <g fill="#8B949E">
+    <rect x="606" y="58" width="3" height="16" rx="1"/>
+    <polygon points="622,58 622,74 610,66"/>
+    <polygon points="706,58 706,74 718,66"/>
+    <rect x="719" y="58" width="3" height="16" rx="1"/>
+  </g>
+  <circle cx="664" cy="66" r="18" fill="#E6EDF3"/>
+  <rect x="657" y="58" width="4.5" height="16" rx="1.5" fill="#0D1117"/>
+  <rect x="666.5" y="58" width="4.5" height="16" rx="1.5" fill="#0D1117"/>
+
+  <!-- progress bar -->
+  <text x="170" y="127" font-size="11" fill="#8B949E">you: /go</text>
+  <text x="720" y="127" font-size="11" fill="#8B949E" text-anchor="end">you: review and merge</text>
+  <rect x="170" y="134" width="550" height="6" rx="3" fill="#21262D"/>
+  <rect x="170" y="134" width="0" height="6" rx="3" fill="url(#bar)">
+    <animate attributeName="width" values="0;550" dur="14s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="170" cy="137" r="7" fill="#FFFFFF">
+    <animate attributeName="cx" values="170;720" dur="14s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- tracklist: the pipeline stages -->
+  <text x="209.3" y="164" text-anchor="middle" font-size="12" fill="#8B949E">Interview<animate attributeName="fill" calcMode="discrete" keyTimes="0;0.1429;1" values="#E6EDF3;#8B949E;#8B949E" dur="14s" repeatCount="indefinite"/></text>
+  <text x="287.9" y="164" text-anchor="middle" font-size="12" fill="#8B949E">Research<animate attributeName="fill" calcMode="discrete" keyTimes="0;0.1429;0.2857;1" values="#8B949E;#E6EDF3;#8B949E;#8B949E" dur="14s" repeatCount="indefinite"/></text>
+  <text x="366.4" y="164" text-anchor="middle" font-size="12" fill="#8B949E">Plan<animate attributeName="fill" calcMode="discrete" keyTimes="0;0.2857;0.4286;1" values="#8B949E;#E6EDF3;#8B949E;#8B949E" dur="14s" repeatCount="indefinite"/></text>
+  <text x="445.0" y="164" text-anchor="middle" font-size="12" fill="#8B949E">Build<animate attributeName="fill" calcMode="discrete" keyTimes="0;0.4286;0.5714;1" values="#8B949E;#E6EDF3;#8B949E;#8B949E" dur="14s" repeatCount="indefinite"/></text>
+  <text x="523.6" y="164" text-anchor="middle" font-size="12" fill="#8B949E">Test<animate attributeName="fill" calcMode="discrete" keyTimes="0;0.5714;0.7143;1" values="#8B949E;#E6EDF3;#8B949E;#8B949E" dur="14s" repeatCount="indefinite"/></text>
+  <text x="602.1" y="164" text-anchor="middle" font-size="12" fill="#8B949E">Review<animate attributeName="fill" calcMode="discrete" keyTimes="0;0.7143;0.8571;1" values="#8B949E;#E6EDF3;#8B949E;#8B949E" dur="14s" repeatCount="indefinite"/></text>
+  <text x="680.7" y="164" text-anchor="middle" font-size="12" fill="#8B949E">Draft PR<animate attributeName="fill" calcMode="discrete" keyTimes="0;0.8571;1" values="#8B949E;#E6EDF3;#E6EDF3" dur="14s" repeatCount="indefinite"/></text>
+</svg>
