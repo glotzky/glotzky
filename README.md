@@ -10,7 +10,9 @@ Forward-deployed engineer building AI tools for large, regulated organizations. 
 
 ## Featured
 
-### [ai-pipeline-starter](https://github.com/glotzky/ai-pipeline-starter)
+<a href="https://github.com/glotzky/ai-pipeline-starter">
+  <img src="assets/now-building.svg" alt="Now building: ai-pipeline-starter" width="720">
+</a>
 
 A kit that turns a GitHub issue into a reviewed draft pull request using AI agents (interviewer, researcher, planner, developer, tester, reviewer). Humans approve at the start and at the merge, retries are bounded, and every feature is labeled as verified live, tested locally, or written but not yet run.
 
@@ -31,6 +33,10 @@ A kit that turns a GitHub issue into a reviewed draft pull request using AI agen
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 [![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)](https://www.atlassian.com/software/jira)
+
+## Activity
+
+![Pac-Man contribution graph](https://raw.githubusercontent.com/glotzky/glotzky/output/pacman.svg)
 
 ## Now
 
