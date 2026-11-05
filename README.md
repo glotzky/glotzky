@@ -2,7 +2,13 @@
 
 Forward-deployed engineer building AI tools for large, regulated organizations. I focus on the hard part: getting them approved, trusted, and adopted.
 
+## Background
+
+I'm a forward-deployed engineer working with financial services organizations to put AI tools into real workflows. Before that, I worked in data and analytics, which shaped how I think about evidence, measurement, and whether a tool is actually delivering value. I'm now pursuing a part-time M.S. in Computer Science & AI at Boston University to deepen the technical foundations behind the work I do.
+
 ## Focus
+
+I'm drawn to problems where good technology isn't enough on its own: AI systems that have to be auditable, safe to deploy, and trusted by the people who use them.
 
 - **AI-assisted software engineering**, with humans in the loop
 - **Enterprise adoption of AI tools** in regulated industries
@@ -34,13 +40,24 @@ A kit that turns a GitHub issue into a reviewed draft pull request using AI agen
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 [![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)](https://www.atlassian.com/software/jira)
 
+## Currently Developing
+
+- **Machine learning fundamentals**, including model training and evaluation, through my M.S. coursework
+- **Algorithms, systems, and software design**, to build a stronger core CS foundation
+- **Multi-agent workflows**, building and testing agentic systems
+- **Measuring AI tool impact**, designing ways to tell whether a tool improves productivity and quality
+
 ## Activity
 
 ![Pac-Man contribution graph](https://raw.githubusercontent.com/glotzky/glotzky/output/pacman.svg)
 
 ## Now
 
-Part-time M.S. in Computer Science & AI at Boston University. Interested in early-stage companies bringing AI into large institutions.
+Part-time M.S. in Computer Science & AI at Boston University.
+
+**Learning goals:** Get better at building and shipping AI systems end to end, backed by a stronger computer science foundation.
+
+**Career goals:** Join or help build an early-stage company bringing AI into large, regulated institutions, and keep working on making these tools trusted and measurable.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gil_Lotzky-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gil-lotzky)
 
